@@ -76,7 +76,7 @@ onscroll = () => {
   }
 };
 
-addEventListener("click", () => {
+topButton.addEventListener("click", () => {
   let rootElement = document.documentElement;
   rootElement.scrollTo({
     top: 0,
